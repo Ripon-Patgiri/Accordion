@@ -24,6 +24,7 @@ body {
 .accordion-title {
   margin-bottom: 20px;
   text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .question {
@@ -31,6 +32,7 @@ body {
   font-size: 22px;
   cursor: pointer;
   border-bottom: 2px dotted #5762d5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
   position: relative;
 }
@@ -44,9 +46,10 @@ body {
 
 .answer {
   padding-top: 15px;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.5;
   width: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
   height: 0px;
   overflow: hidden;
@@ -56,7 +59,7 @@ body {
 /* JavaScript Styling Link */
 
 .accordion .content-container.active .answer {
-  height: 150px;
+  height: 200px;
 }
 
 .accordion .content-container.active .question {
